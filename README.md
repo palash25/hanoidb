@@ -4,7 +4,7 @@
 
 HanoiDB implements an indexed, key/value storage engine.  The primary index is
 a log-structured merge tree (LSM-BTree) implemented using "doubling sizes"
-persistent ordered sets of key/value pairs, similar is some regards to
+persistent ordered sets of key/value pairs, similar in some regards to
 [LevelDB](http://code.google.com/p/leveldb/).  HanoiDB includes a visualizer
 which when used to watch a living database resembles the "Towers of Hanoi"
 puzzle game, which inspired the name of this database.
